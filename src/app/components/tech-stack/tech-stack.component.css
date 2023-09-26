@@ -1,0 +1,61 @@
+.techStack {
+    margin-top: 3rem;
+}
+
+h6 {
+    margin-left: 2rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2rem;
+}
+
+p {
+    color: white;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.techCardSection {
+    width: 80%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.techStackCard {
+    width: 7rem;
+    height: 7rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 1.2rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+
+}
+
+.techStackCard:hover {
+    transform: scale(1.2);
+}
+
+.techStackCard>img {
+    background-color: transparent;
+    width: 60px;
+}
+
+@media (max-width:600px) {
+    p {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+}

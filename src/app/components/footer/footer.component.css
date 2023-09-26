@@ -1,0 +1,34 @@
+.footer {
+    width: 100%;
+    height: 10rem;
+}
+
+.footer h2 {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+span {
+    font-weight: 800;
+}
+
+p {
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+p:nth-child(3) {
+    color: grey;
+    margin-top: 1rem;
+}
+
+.socialMedia {
+    width: 400px;
+    height: 3rem;
+    margin: 1% auto;
+    border: 1px solid greenyellow;
+}

@@ -1,0 +1,112 @@
+.workExperience {
+    height: 50vh;
+}
+
+h6 {
+    margin-left: 2rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2rem;
+}
+
+p {
+    color: white;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.companyDiv {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+
+}
+
+.companyCard {
+
+    width: 47%;
+    height: 15rem;
+    padding: 0.6rem;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.companyInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 2rem;
+}
+
+.companyNumber {
+    height: 4rem;
+    font-size: 4rem;
+    margin-left: 1rem;
+    color: #8491A0;
+}
+
+.companyname {
+    font-size: 1.2rem;
+}
+
+.companyname span {
+    color: red;
+    font-weight: 600;
+}
+
+.companyname .second {
+    color: green;
+    font-weight: 600;
+}
+
+.companyDescription {
+    margin-top: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    .workExperience {
+        height: fit-content;
+    }
+
+    p {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    .companyDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .companyCard {
+        width: 100%;
+        height: 18rem;
+        margin: 0.5rem auto;
+    }
+
+
+
+    .companyname,
+    .companyDescription {
+        font-size: 1rem;
+    }
+}

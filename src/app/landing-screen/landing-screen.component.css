@@ -1,0 +1,77 @@
+.landingPage {
+    width: 100%;
+    height: 87vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+p {
+    width: 80%;
+    margin: 0% auto;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.721px;
+    color: white;
+    text-align: center;
+
+}
+
+.bottomContent {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+}
+
+.Experience,
+.projects {
+    width: 200px;
+    display: flex;
+}
+
+.Experience span,
+.projects span {
+    color: #4F4F4F;
+    width: 100%;
+    color: #4F4F4F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Experience span:nth-child(1),
+.projects span:nth-child(1) {
+    font-size: 3.5rem;
+    text-align: end;
+    padding-right: 0.5rem;
+}
+
+.Experience span:nth-child(2),
+.projects span:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:600px) {
+    p {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: -4rem;
+    }
+
+    .bottomContent {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+    }
+}

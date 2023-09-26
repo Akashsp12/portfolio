@@ -1,0 +1,49 @@
+h6 {
+    margin-left: 2rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2rem;
+}
+
+.button-toggle {
+    width: 40%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.button-toggle input[type="radio"] {
+    display: none;
+}
+
+.button-toggle label {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+
+.button-toggle .lan1 {
+    border-radius: 2rem 0 0 2rem;
+}
+
+.button-toggle .lan3 {
+    border-radius: 0 2rem 2rem 0;
+}
+
+.button-toggle input[type="radio"]:checked+label {
+    background-color: #ffffff71;
+    color: #fff;
+}
+
+@media (max-width:700px) {
+
+    .button-toggle {
+        width: 70%;
+    }
+}

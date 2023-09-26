@@ -1,0 +1,88 @@
+.webSection {
+    width: 70%;
+    margin: 0% auto;
+    height: 18rem;
+    display: flex;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.my-works {
+    border: 1px solid green;
+}
+
+.section1 {
+    width: 50%;
+    background-color: transparent;
+}
+
+.section1 img {
+    width: 12rem;
+    display: block;
+    margin: 1% auto;
+}
+
+.section1>span {
+    margin-right: 20px;
+    border: 1p solid green;
+}
+
+h6 {
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: normal;
+    margin-top: 5rem;
+    background-color: transparent;
+}
+
+p {
+    width: 80%;
+    text-align: center;
+    margin: 3% auto;
+    color: #828282;
+    background-color: transparent;
+}
+
+p:nth-child(3) {
+    color: rgb(72, 72, 253);
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+@media (max-width:700px) {
+    .webSection {
+        width: 84%;
+        margin: 0% auto;
+        height: 16rem;
+    }
+
+    .section1 img {
+        width: 10rem;
+        display: block;
+        margin: 4% auto;
+    }
+
+    h6 {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    p:nth-child(3) {
+        color: rgb(72, 72, 253);
+        font-size: 0.6rem;
+        font-weight: 600;
+
+    }
+}
